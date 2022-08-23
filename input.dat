@@ -1,0 +1,20 @@
+11                            ! nproc
+1960                          ! sqrt S
+75d0,980d0                    ! trigger pt range
+-0.5d0,+0.5d0                 ! trigger rap range
+40d0,980d0                    ! associate pt range
+-0.5d0,+0.5d0                 ! asociate rap range
+0d0                           ! qhat
+0.4d0                         ! jet cone size
+4,1                           ! Nf,As-loop
+200000000,10                  ! vegas warm-up
+2000000000,8                  ! vegas end-run
+1                             ! set unit
+.true.                        ! qq channel
+.true.                        ! qG channel
+.true.                        ! GG channel
+.true.                        ! print info
+.true.                        ! write to console
+.true.                        ! write to file
+.true.                        ! do resummation
+.false.                       ! medium effect (AA)

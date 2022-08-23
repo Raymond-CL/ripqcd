@@ -1,0 +1,29 @@
+list of error and exit code explanations/solutions:
+
+=> numerical recipe error:
+ran_init: arith assump 3 fails
+- cause by random number generator in ran_state.f
+- include -fno-strict-overflow in fotran compile option
+
+=> io-file handling:
+11: input file error - input file missing or bad file name
+
+=> verify input data integrity:
+21: input value smaller than value lower bound
+22: input value larger than value upper bound
+
+=> Vegas integration error:
+31: square-rooting a negative value
+32: dimenison of integration UL limit error
+
+=> PDF error:
+
+=> nPDF error:
+
+=> FF error:
+
+=> standard model setting error:
+
+=> resummation error:
+
+=> program other error:

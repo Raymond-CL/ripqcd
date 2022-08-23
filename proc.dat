@@ -1,0 +1,41 @@
+processes: (nproc)
+
+
+trig\asso   | 0 D-Y | 1 Jet | 2 had | 
+------------+-------+-------+-------+--
+ 1 Jet      |   o   |   *   |   o   |
+ 2 had      |   o   |   *   |   *   |
+ 3 heavy-Q  |   o   |   o   |   o   |
+ 4 gamma    |   *   |   *   |   *   |
+ 5 Z-boson  |   *   |   *   |   *   |
+ 6 W-boson  |   *   |   *   |   *   |
+ 7 Higgs    |   *   |   *   |   *   |
+
+
+11 - pc(Jet) + pd(Jet)        (L)   [PRL 113-232001, PRD 92-094007, PLB 782-773]
+21 - pc(had) + pd(Jet)        (L)   [PLB 773-672]
+22 - pc(had) + pd(had)        (L)   [PLB 773-672]
+40 - pc(gam)                  (L)   [NPB 250-199]
+41 - pc(gam) + pd(Jet)        (L)   [NPB 933-306]
+42 - pc(gam) + pd(had)        (L)
+50 - pc( Z )                  (L)   [NPB 250-199]
+51 - pc( Z ) + pd(Jet)        (N)   [PRD 100-054032, EPJC 80-1136]
+52 - pc( Z ) + pd(had)        (L)
+60 - pc( W )                  (L)   [NPB 250-199]
+61 - pc( W ) + pd(Jet)        (N)   [PRD 100-054032]
+62 - pc( W ) + pd(had)        (L)
+70 - pc( H )                  (L)   [PLB 283-395]
+71 - pc( H ) + pd(Jet)        (N)   [PRL 114-202001, PLB 769-57, EPJC 80-1136]
+72 - pc( H ) + pd(had)        (L)
+
+
+future proposed processes:
+heavy quark or (J/psi) observables
+Higgs plus two jets (Dalitz analysis) [PLB 797-134852, PLB 762-47]
+
+
+note:
+- processes */o: available/unavailable in this program
+- L/N: leading/next-to-leading order
+- pc/pd is trigger/associate
+- some processes are not available in AA collision
